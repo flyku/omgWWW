@@ -1,5 +1,5 @@
 {
-  "name": "m-kbs4",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "app/index.js",
@@ -9,7 +9,7 @@
     "publish": "webpack --release",
     "toserver": "webpack --release --toserver"
   },
-  "author": "omgweb",
+  "author": "flyku",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

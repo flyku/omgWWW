@@ -1,0 +1,1 @@
+创建redux store 和reducer注册、注入

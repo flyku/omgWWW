@@ -1,0 +1,76 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body, h1, h2, h3, h4, h5, h6, dl, ul, li, ol, dt, dd, table, th, tr, td, p, select, input, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #F4F4F4;
+    color: #000000;
+    font: 12px 'Microsoft YaHei', 'Arial', '微软雅黑', 'SimSun', '宋体';
+    padding-top: 62px;
+}
+
+th {
+    font-weight: normal;
+    font-style: normal;
+}
+
+input, textarea {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    padding-bottom: 50px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #878787;
+}
+
+.footer a {
+    color: #878787;
+}
+
+/*lightips插件相关样式*/
+.light-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    display: none;
+    z-index: 3000;
+}
+
+.message-container {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3001;
+    display: none;
+}
+
+.message-container .notice {
+    background-color: #F7F7F7;
+    font-size: 14px;
+    line-height: 43px;
+    text-align: center;
+}
